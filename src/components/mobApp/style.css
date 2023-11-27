@@ -1,0 +1,92 @@
+.main{
+    height: 496px;
+    width: 100vw;
+    background-image: url(../../assets//MobApp//backMain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* background-color: blue; */
+}
+.mob{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.iceCream{
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+}
+.pizza{
+    position: absolute;
+    top: -78px;
+    right: 110px;
+}
+.backRound{
+    position: absolute;
+    top: 100px;
+    right: 110px;
+    height: 125px;
+    width: 125px;
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        height: 180px;
+        width: 100vw;
+        background-image: url(../../assets//MobApp//backMain.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        /* background-color: blue; */
+    }
+    .mob {
+        left: 10px;
+        top:-40px;
+        /* Adjust other positions as needed */
+    }
+
+    .iceCream {
+        top: 50px;
+        right: -60px;
+        /* Adjust other positions as needed */
+    }
+
+    .pizza {
+        top: -60px;
+        right: 30px;
+        /* Adjust other positions as needed */
+    }
+
+    .backRound {
+        top: 45px;
+        right: 50px;
+        /* Adjust other positions as needed */
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .mob {
+        left: 40px;
+        /* Adjust other positions as needed */
+    }
+
+    .iceCream {
+        bottom: -50px;
+        right: -50px;
+        /* Adjust other positions as needed */
+    }
+
+    .pizza {
+        top: -50px;
+        right: 50px;
+        /* Adjust other positions as needed */
+    }
+
+    .backRound {
+        top: 50px;
+        right: 50px;
+        /* Adjust other positions as needed */
+    }
+}
+

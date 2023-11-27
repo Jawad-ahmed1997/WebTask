@@ -1,0 +1,32 @@
+/* ********************* Customer Review Css ********************* */
+.testiCardMain{
+  height: 412px;
+  width: 427px;
+  background-color:#FFFFFF;
+  box-shadow: 0px 15px 35px 0px #BDBDBD40;
+}
+
+.customerImage{
+  height: 102px;
+  width: 102px;
+}
+.customerName{
+  font-size: 26px;
+  line-height: 30.47px;
+  color: #1F1F1F;
+}
+.customerType{
+color:#808080;
+font-size: 20px;
+line-height: 23.44px;
+}
+.customerCommint{
+color:#000000;
+font-size: 18px;
+line-height: 32px;
+}
+.customerRatting{
+font-size: 20px;
+line-height: 23.44px;
+color: #000000;
+}

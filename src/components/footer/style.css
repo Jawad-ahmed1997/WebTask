@@ -1,0 +1,20 @@
+.FooterMian{
+    background-color: #000;
+    /* height: 460px; */
+    width: 100%;
+}
+
+.FooterHeads{
+    color: #FF9E2C;
+}
+.FooterText{
+    color: #fff;
+    font-size: 16px;
+    /* line-height: 24px; */
+}
+.sendIconBtn{
+background-color: #FF9E2C;
+}
+.emailinput::placeholder {
+    color:  #1F1F1F; /* Set your desired color */
+  }
