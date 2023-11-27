@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import logo from "../../assets/Footer/MaskGroup.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -8,7 +7,7 @@ import {
   faEnvelopeOpen,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
-import { fb, insta, Tweter } from "../../assets/Footer/index";
+import { fb, insta, Tweter, logo } from "../../assets/Footer/index";
 
 function Footer() {
   return (
